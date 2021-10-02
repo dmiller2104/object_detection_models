@@ -13,13 +13,13 @@ To ensure that the correct packages are installed in the command line enter "pip
 
 For the kangaroo object detection model you would need to run the following in the command line:
 
-git clone https://github.com/matterport/Mask_RCNN.git
-git clone https://github.com/experiencor/kangaroo.git
+- git clone https://github.com/matterport/Mask_RCNN.git
+- git clone https://github.com/experiencor/kangaroo.git
 
 Once you have downloaded them added them into your working directory, run the following in the command line:
 
-cd Mask_RCNN
-python setup.py install
+- cd Mask_RCNN
+- python setup.py install
 
 The dataset is in kangaroo folder, added by cloning the kangaroo Git, and contains images and annotations (which gives pixel locations for the roos).
 
